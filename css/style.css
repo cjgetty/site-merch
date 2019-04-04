@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    line-height: 20px;
+  }
+
+span {
+    width: 50%;
+    margin: auto;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h1 {
+    line-height: 100%;
+    font-weight: 600;
+}
+
+h4 {
+    line-height: 20%;
+}
+
+p {
+    
+}
+
+a {
+    position: relative;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    display: inline;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, .45);
+}
+
+.header-link {
+    color: rgba(0, 0, 0, 1);
+    display: inline;
+    padding: 0 20px 0 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, .15);
+}
